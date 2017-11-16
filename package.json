@@ -1,0 +1,42 @@
+{
+  "name": "spark-dmi-koa",
+  "version": "1.0.0",
+  "description": "spark dmi koa",
+  "main": "app.js",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "ioredis": "^3.2.1",
+    "koa": "^2.4.1",
+    "koa-body": "^2.5.0",
+    "koa-oauth-server": "^1.0.1",
+    "koa-router": "^7.3.0",
+    "koa-static": "^4.0.1",
+    "koa-timeout-v2": "^1.0.0",
+    "moment": "^2.19.2",
+    "mysql2": "^1.5.0",
+    "sequelize": "^4.22.6",
+    "stack-trace": "0.0.10",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/759325100/spark-dmi-koa.git"
+  },
+  "author": "waroom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/759325100/spark-dmi-koa/issues"
+  },
+  "homepage": "https://github.com/759325100/spark-dmi-koa#readme"
+}
